@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Account Details - Online Banking System</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		header {
+			background-color: #003366;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		form {
+			border: 2px solid #003366;
+			padding: 20px;
+			margin: 20px auto;
+			width: 50%;
+		}
+		
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		
+		input[type="email"], input[type="number"] {
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		
+		input[type="submit"] {
+			background-color: #003366;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #00264d;
+		}
+		
+		footer {
+			background-color: #003366;
+			color: white;
+			padding: 10px;
+			text-align: center;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+		}
+		
+		footer p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Online Banking System</h1>
+	</header>
+	<form action="account_details.php" method="post">
+		<h2>Account Details</h2>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		<label for="accno">Account ID:</label>
+		<input type="number" id="accno" name="accno" required><br><br>
+		<input type="submit" value="Submit">
+	</form>
+	<footer>
+		<p>&copy; 2023 Online Banking System</p>
+	</footer>
+</body>
+</html>

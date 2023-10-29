@@ -1,0 +1,74 @@
+/* Styling for the container */
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+/* Styling for the h1 element */
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Styling for the form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the labels */
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+/* Styling for the input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Styling for the Login button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling for the Login button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the error message */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Styling for the body */
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
